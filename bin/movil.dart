@@ -1,5 +1,8 @@
-import 'package:movil/movil.dart' as movil;
+import 'package:movil/funcioness.dart';
 
-void main(List<String> arguments) {
-  print('Hello world: ${movil.calculate()}!');
+void main() {
+  analizarVentas();
+  print(
+    "\nEl producto que vendió más en la semana fue el producto ${estudianteConNotaMasAlta + 1} con una venta máxima de: $notaMasAltaGeneral",
+  );
 }
